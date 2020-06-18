@@ -10,8 +10,8 @@
  */
 
 public class Factura{
-String mNumero, mFecha;
-Producto mProducto[];
+public String mNumero, mFecha;
+public Producto mProducto[];
 
 public Factura(String n, String f){
 mNumero=n; 
@@ -38,7 +38,34 @@ mProducto[i].show();
 total+=mProducto[i].preciopro; }
 System.out.println("\tTotal .... " + total + " pts.");
 
-}
+
+
 
 
 }
+
+/*
+public void show() {
+double total=0;
+
+System.out.println(mNumero + "; " + mFecha); for (int i=0; mLineas[i]!=null; i++) {
+mLineas[i].show();
+total+=mLineas[i].mPrecio; }
+System.out.println("\tTotal .... " + total + " pts.");
+System.out.println("\t     " + (total/kCambio) + " euros");
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+//holaworld
+}
+

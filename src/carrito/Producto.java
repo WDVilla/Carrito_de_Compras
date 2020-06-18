@@ -1,7 +1,7 @@
 
 public class Producto {
-	public String nombrepro;
-	public int preciopro;
+	String nombrepro;
+	int preciopro;
 	private String descripcion;
 	private int stock;
 	public Producto() {
@@ -34,6 +34,7 @@ public class Producto {
 	public void setPrecio(int precio) {
 		this.preciopro=precio;
 	}
+       
         public void show() {
 System.out.println("\t" + nombrepro + " ..... " + preciopro + " pts");
 }
