@@ -15,6 +15,8 @@ public class UsoCarrito {
 		f.setDetalle(p2, 4);
 		System.out.println("Nombre del usuario: "+a.getNombre()+" id del carrito: "+f.getId()+" Total de la compra: "+ f.getTotal()+" Pesos");
 		System.out.println("Cantidad de "+ p1.getNombre()+" en Stock:"+p1.getStock());
-	}
+                
+                
+        }
 
 }
